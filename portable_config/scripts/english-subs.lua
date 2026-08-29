@@ -289,7 +289,7 @@ local function render()
         if block.current then
             -- Current subtitle: larger + bold + highlighted.
             table.insert(ass,
-                string.format("{\\an7\\pos(%d,%d)\\fs%d\\b1\\c&H80FFFF&\\bord1.5\\shad0}%s",
+                string.format("{\\an7\\pos(%d,%d)\\fs%d\\b0\\c&H80FFFF&\\bord1.5\\shad0}%s",
                     x, y, block.fs, joined))
         else
             -- Context subtitles: slightly dimmer.
