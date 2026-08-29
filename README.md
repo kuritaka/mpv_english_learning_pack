@@ -1,5 +1,12 @@
 # mpv English Learning Setup
 
+
+## Screenshots (mpv english learning pack)
+<img src="screenshots/ted.png" width="600">
+
+<img src="screenshots/friends.png" width="600">
+
+
 ## Purpose
 
 This setup is designed for the following layout and workflow:

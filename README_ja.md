@@ -1,5 +1,14 @@
 # mpv 英語学習用セット
 
+
+## スクリーンショット(mpv english learning pack)
+<img src="screenshots/ted.png" width="600">
+
+
+<img src="screenshots/friends.png" width="600">
+
+
+
 ## 目的
 
 動画再生プレイヤーmpvを英語学習のために以下のようにカスタマイズしています。
