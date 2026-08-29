@@ -2,10 +2,10 @@
 
 
 ## スクリーンショット(mpv english learning pack)
-<img src="screenshots/ted.png" width="600">
+<img src="screenshots/ted.png" width="800">
 
 
-<img src="screenshots/friends.png" width="600">
+<img src="screenshots/friends.png" width="800">
 
 
 
