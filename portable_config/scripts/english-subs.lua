@@ -1,25 +1,29 @@
 -- english-subs.lua
 -- English-learning side panel for mpv.
--- Displays: previous 2 cues + current cue + next 2 cues.
--- Designed for a 60% video / 40% subtitle layout.
 
 local mp = require "mp"
 local utils = require "mp.utils"
-local options = require "mp.options"
 
 local o = {
-    panel_ratio = 0.40,
+    panel_ratio = 0.50,
+
     prev_count = 2,
     next_count = 2,
+
     font_size = 27,
-    current_font_size = 32,
+    current_font_size = 27,
+
     max_chars = 65,
+
     line_gap = 14,
     block_gap = 22,
+
     margin_x = 28,
-    current_marker = "▶ ",
+
+    current_marker = "",
 }
-options.read_options(o, "english-subs")
+
+
 
 local overlay = mp.create_osd_overlay("ass-events")
 local cues = {}
