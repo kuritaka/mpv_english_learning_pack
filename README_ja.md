@@ -32,6 +32,41 @@
 
 ---
 
+## 英語学習用キー
+
+`Ctrl + ←`  
+    前の字幕へ移動
+
+`Ctrl + →`  
+    次の字幕へ移動
+
+`R`  
+    現在の字幕の先頭からもう一度再生
+
+`S`  
+    右側の字幕学習パネル ON / OFF
+
+`Space`  
+    再生 / 一時停止
+
+`← / →`  
+    5秒戻る / 進む
+
+`↑ / ↓`  
+    10秒進む / 戻る
+
+`Shift + ← / →`  
+    1秒戻る / 進む
+
+`[ / ]`  
+    再生速度を -0.1 / +0.1
+
+`Backspace`  
+    再生速度を 1.0 に戻す
+
+
+---
+
 ## 一番簡単な配置方法
 
 インストール方法などの詳細は以下を参照ください。  
@@ -42,16 +77,16 @@ Windows版 mpv を ZIP で展開して使っている場合、このZIPの中身
 
 配置後:
 
+```text
 mpv/  
 ├─ mpv.exe  
 ├─ install_addons.ps1  
 └─ portable_config/  
    ├─ mpv.conf  
    ├─ input.conf  
-   ├─ scripts/  
-   │  └─ english-subs.lua  
-   └─ script-opts/  
-      └─ english-subs.conf
+   └─ scripts/  
+        └─ english-subs.lua  
+```
 
 重要:  
 `portable_config` 自体を mpv.exe と同じ階層に置きます。
@@ -64,11 +99,15 @@ uosc と thumbfast は更新される外部プロジェクトなので、このZ
 
 mpv.exe のあるディレクトリで PowerShell を開き、次を実行:
 
+```powershell
 powershell -ExecutionPolicy Bypass -File .\install_addons.ps1
+```
 
 または PowerShell から:
 
+```powershell
 .\install_addons.ps1
+```
 
 実行後、portable_config 以下へ uosc と thumbfast が追加されます。
 
@@ -94,39 +133,6 @@ Friends.S01E01.mp4
 同じ動画名から始まる SRT が複数ある場合は、基本的にファイル名が短いものを優先します。  
 複数言語のSRTを常用する場合は、今後「英語を優先」などの条件を追加できます。
 
----
-
-## 英語学習用キー
-
-Ctrl + ←  
-    前の字幕へ移動
-
-Ctrl + →  
-    次の字幕へ移動
-
-R  
-    現在の字幕の先頭からもう一度再生
-
-S  
-    右側の字幕学習パネル ON / OFF
-
-Space  
-    再生 / 一時停止
-
-← / →  
-    5秒戻る / 進む
-
-↑ / ↓  
-    10秒進む / 戻る
-
-Shift + ← / →  
-    1秒戻る / 進む
-
-[ / ]  
-    再生速度を -0.1 / +0.1
-
-Backspace  
-    再生速度を 1.0 に戻す
 
 ---
 

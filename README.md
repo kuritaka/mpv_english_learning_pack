@@ -30,6 +30,40 @@ This setup is designed for the following layout and workflow:
 
 ---
 
+## English Learning Key Bindings
+
+`Ctrl + Left Arrow`  
+Move to the previous subtitle cue.
+
+`Ctrl + Right Arrow`  
+Move to the next subtitle cue.
+
+`R`  
+Replay the current subtitle from its beginning.
+
+`S`  
+Toggle the subtitle learning panel on the right side.
+
+`Space`  
+Play / pause.
+
+`Left Arrow / Right Arrow`  
+Seek backward / forward 5 seconds.
+
+`Up Arrow / Down Arrow`  
+Seek forward / backward 10 seconds.
+
+`Shift + Left Arrow / Shift + Right Arrow`  
+Seek backward / forward 1 second.
+
+`[ / ]`  
+Decrease / increase playback speed by 0.1.
+
+`Backspace`  
+Reset playback speed to 1.0.
+
+---
+
 ## Easiest Installation Method
 
 If you use the Windows ZIP build of mpv, copy the contents of this ZIP into the directory that contains **mpv.exe**.
@@ -43,10 +77,8 @@ mpv/
 └─ portable_config/
    ├─ mpv.conf
    ├─ input.conf
-   ├─ scripts/
-   │  └─ english-subs.lua
-   └─ script-opts/
-      └─ english-subs.conf
+   └─ scripts/
+       └─ english-subs.lua
 ```
 
 Important:
@@ -101,39 +133,7 @@ If multiple SRT files start with the same video filename, the script generally p
 
 If you regularly use subtitles in multiple languages, you can later add rules such as prioritizing English subtitles.
 
----
 
-## English Learning Key Bindings
-
-`Ctrl + Left Arrow`  
-Move to the previous subtitle cue.
-
-`Ctrl + Right Arrow`  
-Move to the next subtitle cue.
-
-`R`  
-Replay the current subtitle from its beginning.
-
-`S`  
-Toggle the subtitle learning panel on the right side.
-
-`Space`  
-Play / pause.
-
-`Left Arrow / Right Arrow`  
-Seek backward / forward 5 seconds.
-
-`Up Arrow / Down Arrow`  
-Seek forward / backward 10 seconds.
-
-`Shift + Left Arrow / Shift + Right Arrow`  
-Seek backward / forward 1 second.
-
-`[ / ]`  
-Decrease / increase playback speed by 0.1.
-
-`Backspace`  
-Reset playback speed to 1.0.
 
 ---
 
